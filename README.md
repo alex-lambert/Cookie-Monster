@@ -3,7 +3,8 @@ Cookie-Monster
 
 Handles the new UK Cookie Law.
 
-Usage: insert the following script call to your HEAD tag: <script language="javascript" type="text/javascript" src="http://www.lomogo.co.uk/cookie-compliance/cookie-monster.js?debug=true&showDecline=true&cookieList=__utma,__utmb,__utmc,__utmz" id="cookie-monster-source"></script>
+Usage: insert the following script call to your HEAD tag: &lt;script language="javascript" type="text/javascript" src="http://www.lomogo.co.uk/cookie-compliance/cookie-monster.js?debug=true&showDecline=true&cookieList=__utma,__utmb,__utmc,__utmz" id="cookie-monster-source"&gt;&lt;/script&gt;
+
 
 Debug – can be either true or false;
 If its set to true then there will be a 'Dump Test Cookies' button on the right hand form that will allow you to set fake test cookies with the names you set so that you can test the functions.
