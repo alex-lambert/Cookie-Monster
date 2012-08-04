@@ -1,6 +1,8 @@
 Cookie-Monster
 ==============
 
+Example: http://www.lomogo.co.uk/cookie-compliance/
+
 Handles the new UK Cookie Law.
 
 Usage: insert the following script call to your HEAD tag: &lt;script language="javascript" type="text/javascript" src="http://www.lomogo.co.uk/cookie-compliance/cookie-monster.js?debug=true&showDecline=true&cookieList=__utma,__utmb,__utmc,__utmz" id="cookie-monster-source"&gt;&lt;/script&gt;
