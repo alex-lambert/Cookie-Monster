@@ -58,7 +58,8 @@ function cookieMonster() {
 	
 	// Kills a Cookie
 	this.killCookie = function(cookieName){
-		document.cookie = cookieName + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; domain=" + document.domain.replace('www','') + "; path=/";			
+		document.cookie = cookieName + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; domain=" + document.domain.replace('www','') + "; path=/";
+		document.cookie = cookieName + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; domain=" + document.domain + "; path=/";				
 	}
 	
 	// Sets a given cookie ( Expires in twenty years )
